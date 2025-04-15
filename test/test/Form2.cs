@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace test {
-    public partial class Form1 : Form {
-        public Form1() {
+    public partial class Form2 : Form {
+        public Form2() {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e) {
-            Forms2 tela2 = new Forms2();
-            tela2.Show();
+            Forms1 tela1 = new Forms1();
+            tela1.Show();
             this.Hide();
         }
     }
