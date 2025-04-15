@@ -15,7 +15,7 @@ namespace test {
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         
-            Console.WriteLine("ola");
+            Console.WriteLine("ola undo");
         }
     }
 }
