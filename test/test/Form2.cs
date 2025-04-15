@@ -15,7 +15,7 @@ namespace test {
         }
 
         private void button1_Click(object sender, EventArgs e) {
-            Forms1 tela1 = new Forms1();
+            Form1 tela1 = new Form1();
             tela1.Show();
             this.Hide();
         }
