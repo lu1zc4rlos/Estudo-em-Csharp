@@ -19,5 +19,17 @@ namespace test {
             tela2.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e) {
+
+            string nome = textBox1.Text;
+
+            MessageBox.Show($"Bem vindo {nome}");
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e) {
+
+            string nome = textBox1.Text;
+        }
     }
 }
