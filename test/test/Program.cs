@@ -16,6 +16,7 @@ namespace test {
             Application.Run(new Form1());
         
             Console.WriteLine("ola mundo");
+            Console.WriteLine("Ola mundo pela segunda vez");
         }
     }
 }
